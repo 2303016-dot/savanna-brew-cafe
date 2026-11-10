@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Savanna Brew Caf&eacute;</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat+Brush&family=Gochi+Hand&family=Kaushan+Script&family=Montserrat:wght@400;600;700&family=Yellowtail&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-link">
+        <img src="images/logo.png" alt="Savanna Brew Caf&eacute; logo with a coffee cup">
+      </a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="offers.html">Offer Deals</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" class="nav-reserve">Reserve</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO: text sits on top of the background image -->
+    <section class="hero" id="hero">
+      <div class="hero-text">
+        <h1>Savanna Brew Caf&eacute;</h1>
+        <p class="tagline">Brewed in Kenya. Served with love.</p>
+        <p class="hero-sub">Fresh Kenyan coffee and warm pastries, in the heart of Westlands.</p>
+        <div class="hero-buttons">
+          <a href="menu.html" class="btn">See our menu</a>
+          <a href="contact.html" class="btn btn-outline">Reserve a table</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- WELCOME -->
+    <section class="container welcome">
+      <h2>Welcome</h2>
+      <p class="welcome-lead">Pull up a chair, the coffee is hot and the pastries are fresh.</p>
+      <p>Welcome to Savanna Brew Caf&eacute;, your cosy corner in Westlands where every cup tells a story. We roast and brew coffee from the highlands of Nyeri and Kiambu, and pair it with fresh pastries baked every morning. Come in, relax, and taste the difference.</p>
+
+      <ul class="welcome-highlights">
+        <li><strong>Freshly roasted</strong> Kenyan beans every week</li>
+        <li><strong>Baked daily</strong> pastries ready from 7:00 AM</li>
+        <li><strong>A warm space</strong> for friends, study and work</li>
+      </ul>
+    </section>
+
+    <!-- THREE FAVOURITE CARDS (Flexbox, equal width, lift on hover) -->
+    <section class="container favourites">
+      <h2>Our favourites</h2>
+      <div class="card-row">
+        <article class="card">
+          <img src="images/latte.jpg" alt="A creamy caffe latte in a white cup" width="400" height="300">
+          <div class="card-body">
+            <h3>Caff&egrave; Latte</h3>
+            <p>Smooth espresso with creamy milk, a slow morning favourite.</p>
+            <p class="card-price">KES 320</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/cappuccino.jpg" alt="A cappuccino topped with thick milk foam" width="400" height="300">
+          <div class="card-body">
+            <h3>Cappuccino</h3>
+            <p>Espresso with steamed milk and a thick layer of foam.</p>
+            <p class="card-price">KES 300</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/croissant.jpg" alt="A golden butter croissant on a plate" width="400" height="300">
+          <div class="card-body">
+            <h3>Butter Croissant</h3>
+            <p>Flaky, golden and baked fresh every morning.</p>
+            <p class="card-price">KES 250</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- OFFER DEALS: three packages, link to the offers page -->
+    <section class="deals-band">
+      <div class="container">
+        <h2>Offer Deals</h2>
+        <p class="deals-intro">Coffee and something tasty together for less. Pick a package and we will have it ready.</p>
+        <div class="deal-grid">
+          <article class="deal-card">
+            <span class="deal-badge">Most popular</span>
+            <h3>Morning Starter</h3>
+            <ul class="deal-list">
+              <li>1 hot coffee of your choice</li>
+              <li>2 butter croissants</li>
+            </ul>
+            <p class="deal-price"><span>KES</span> 500</p>
+            <a href="offers.html" class="btn">See the deal</a>
+          </article>
+          <article class="deal-card">
+            <h3>Chai &amp; Samosa</h3>
+            <ul class="deal-list">
+              <li>1 Kenyan chai</li>
+              <li>Samosas (2 pieces)</li>
+            </ul>
+            <p class="deal-price"><span>KES</span> 400</p>
+            <a href="offers.html" class="btn">See the deal</a>
+          </article>
+          <article class="deal-card">
+            <h3>Sweet Treat</h3>
+            <ul class="deal-list">
+              <li>1 hot chocolate</li>
+              <li>1 chocolate brownie</li>
+            </ul>
+            <p class="deal-price"><span>KES</span> 550</p>
+            <a href="offers.html" class="btn">See the deal</a>
+          </article>
+        </div>
+        <p class="deals-cta"><a href="offers.html" class="btn">See all offer deals</a></p>
+      </div>
+    </section>
+
+    <!-- VISIT BOX: second button to contact.html + map (bonus iframe) -->
+    <section class="container visit">
+      <div class="visit-box">
+        <div class="visit-text">
+          <h2>Save your seat</h2>
+          <p>We are at 14 Coffee Lane, Westlands. Book a table for a quiet coffee, a birthday or a business meeting and we will have it ready for you.</p>
+          <a href="contact.html" class="btn">Reserve a table</a>
+        </div>
+        <div class="visit-map">
+          <iframe title="Map showing Westlands, Nairobi" src="https://www.google.com/maps?q=Westlands,Nairobi&amp;output=embed" width="600" height="300" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container footer-columns">
+      <div class="footer-col">
+        <h3>Find us</h3>
+        <p>14 Coffee Lane<br>Westlands, Nairobi</p>
+        <p>Phone: +254 700 123 456</p>
+        <p><a href="contact.html" class="footer-reserve">Reserve a table</a></p>
+      </div>
+      <div class="footer-col">
+        <h3>Opening hours</h3>
+        <p>Mon to Fri: 7:00 AM to 9:00 PM</p>
+        <p>Saturday: 8:00 AM to 10:00 PM</p>
+        <p>Sunday: 9:00 AM to 6:00 PM</p>
+      </div>
+      <div class="footer-col">
+        <h3>Follow us</h3>
+        <ul class="social-links">
+          <li><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram @savannabrew</a></li>
+          <li><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook /savannabrewcafe</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copyright">&copy; 2026 Savanna Brew Caf&eacute;. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
